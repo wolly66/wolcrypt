@@ -287,25 +287,10 @@ if ( ! class_exists( 'Wolcrypt' ) ) {
 												
 
 			}
-						
-			self::$instance->updater();
-			
-			
 		
 		}
 		
-		/**
-		 * Plugin Updater
-		 *
-		 * @access private
-		 * @since  1.0
-		 * @return void
-		 */
-		private function updater() {
-
-			//TODO: Maybe
-
-		}
+		
 
 	}
 	
@@ -323,6 +308,7 @@ if ( ! class_exists( 'Wolcrypt' ) ) {
  * @since 1.0
  * @return wolcrypt The one true wolcrypt Instance
  */
+ 
 function wcr() {
 	
 	return Wolcrypt::instance();

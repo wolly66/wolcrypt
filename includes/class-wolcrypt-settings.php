@@ -56,7 +56,7 @@ class Wolcrypt_Settings
             <?php
 	            if ( is_writable( ABSPATH ) ){
 		            
-		            echo ' si può fare';
+		            
 	            }
 	        ?>
             
